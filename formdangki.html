@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đơn đăng ký</title>
+</head>
+<body>
+<style>
+    fieldset{
+        background: burlywood;
+    }
+ h1{
+     background: aqua;
+     color: blue;
+ }
+ p{
+     color: blue;
+ }
+</style>
+<form action="">
+    <fieldset>
+        <h1>ĐĂNG KÍ HỌC VIÊN</h1>
+        <p>Họ và tên: <input type="text" name="ho" id="ho" placeholder="Nhập họ và tên"></p>
+        <p>Ngày sinh:<input type="date" name="ns" id="date" placeholder="Nhập ngày sinh"></p>
+        <p>Giới tính: <input type="radio" name="gt" value="" >Nam
+            <input type="radio" name="gt" value="" >Nữ
+        </p>
+        <p>Địa chỉ: <br>
+            <textarea name="dc" id="dc" cols="30" rows="10"></textarea></p>
+        <p>Lớp <select name="lớp" id="lop">
+            <option value="A">Lớp A</option>
+            <option value="B">Lớp B</option>
+            <option value="C">Lớp C</option>
+            <option value="D">Lớp D</option>
+        </select> </p>
+        <p>Email <input type="email" name="E"  placeholder="Nhập email"></p>
+        <p>Email <input type="number" name="sdt"  placeholder="Nhập số điện thoại"></p>
+        <p><input type="submit" name="" value="Đăng ký"> <input type="reset" name="" value="Nhập lại"></p>
+
+    </fieldset>
+</form>
+</body>
+</html>

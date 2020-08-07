@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form demo</title>
+</head>
+<body>
+<style>
+    fieldset{
+        border-style: solid;
+        border-width: thick;
+        width: 500px;
+
+    }
+    #email {
+        padding-left: 22px;
+
+    }
+    #st{
+        color: coral;
+    }
+    p{
+        color: blue;
+    }
+    h1{
+        background: red;
+        color: white;
+        padding-left: 100px;
+
+    }
+</style>
+<div class="spform">
+    <form action="demoform.html" name="dk" id="dk">
+        <fieldset>
+            <h1>SỞ THÍCH CỦA BẠN</h1>
+            <p>Họ và tên <input type="textbox" name="ho" id="ho" placeholder="Full name"><br></p>
+            <p id="email">Email <input type="textbox"  name="email" id="email" placeholder="Email"></p>
+            <p>Sở thích</p>
+            <p id="st">
+                <input type="checkbox" name="hobby" value="st">Thể thao
+                <input type="checkbox" name="hobby" value="st">Lướt web
+                <input type="checkbox" name="hobby" value="st">Du lịch <br>
+                <input type="checkbox" name="hobby" value="st">Âm nhạc
+                <input type="checkbox" name="hobby" value="st">Chơi game
+                <input type="checkbox" name="hobby" value="st">Đọc sách <br>
+                <input type="checkbox" name="hobby" value="st">Điện ảnh
+
+            </p>
+            <p>
+                <input type="submit" name="check" value="Gửi thông tin">
+                <input type="reset" name="again" value="Nhập lại">
+            </p>
+
+        </fieldset>
+
+
+    </form>
+</div>
+</body>
+</html>
